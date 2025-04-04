@@ -1,0 +1,153 @@
+
+
+.erica-one-regular {
+    font-family: "Erica One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.container {
+    max-width: 1200px;
+    margin: auto;
+    gap: 18px;
+    grid-row-gap: 18px;
+    margin-bottom: 20px;
+    background-color: #feeecb;
+}
+
+.container-flex{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.topHeader{
+    padding: 15px;
+    background-color: #2466a9;
+    display: flex;
+    justify-content:center;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+ul.topNav{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.topNav a{
+    background-color: #feeecb;
+    color: #0f1128;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.topNav a:hover{
+    background-color: #e8c24b;
+    color: #feeecb;
+}
+
+h1{
+    color: #ec9146;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 30px;
+    font-size: 130px;
+    font-family: "Bevan", serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+h2{
+    color:#ec9146;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 30px;
+    font-size: 60px;
+    font-family: "Erica One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.headingImage{
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    max-width: 1140px;
+    margin: 30px;
+    margin-bottom: 20px;
+}
+
+.intro{
+    background-color: #2466a9;
+    border-radius: 20px;
+    max-width: 1140px;
+    margin: 30px;
+    padding: 30px;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #e8c24b;
+    font-size: 19px;
+}
+
+a.button{
+    color:#0f1128;
+    background-color: #ec9146;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 1000px;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+a.button:hover{
+    background-color: #e8c24b;
+    color: #0f1128;
+}
+
+
+section.features{
+    display: flex;
+    gap: 20px;
+    margin: 30px;
+    justify-content: space-evenly;
+}
+
+
+.featuresItem{
+    background-color: #ec9146;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Funnel Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    align-content: baseline;
+}
+
+.featuresPhotos{
+    display: flex;
+    max-width: 300px;
+    border-radius: 30px;
+    padding: 30px;
+    align-content: baseline;
+
+}
+
+
